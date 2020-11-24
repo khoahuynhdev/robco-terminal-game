@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Main component</h1>
+    <img src="../assets/monitorborder-off.png" alt="monitor border">
   </div>
 </template>
 <script lang="ts">
