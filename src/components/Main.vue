@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/monitorborder-off.png" alt="monitor border">
+    <img src="../assets/monitorborder.png" alt="monitor border">
   </div>
 </template>
 <script lang="ts">
