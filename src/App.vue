@@ -15,6 +15,7 @@ body {
   height: 100%;
   font-family: "Open Sans", sans-serif;
   display: flex;
+  justify-content: center;
   font-size: 13px;
 }
 

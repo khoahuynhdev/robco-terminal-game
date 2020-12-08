@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main-wrapper">
     <img src="../assets/monitorborder.png" alt="monitor border">
   </div>
 </template>
@@ -10,6 +10,5 @@ export default Vue.extend({
 
 });
 </script>
- <style lang="sass" scoped>
-
+ <style lang="scss" scoped>
 </style>
