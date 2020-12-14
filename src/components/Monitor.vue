@@ -1,6 +1,9 @@
 <template>
   <div>
     <img :src="border" alt="monitor border">
+    <div class="btn-power-wrapper">
+      <button @click="togglePower" class="btn-power"></button>
+    </div>
   </div>
 </template>
 
@@ -21,9 +24,23 @@ export default Vue.extend({
       return this.monitorOn ? monitorBorder : monitorBorderOff;
     },
   },
+  methods: {
+    togglePower(): void {
+      this.monitorOn = !this.monitorOn;
+    },
+  },
 });
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.btn-power-wrapper {
+  .btn-power {
+    position: relative;
+    top: -105px;
+    left: 282px;
+    width: 50px;
+    height: 50px;
+    opacity:0;
+  }
+}
 </style>
