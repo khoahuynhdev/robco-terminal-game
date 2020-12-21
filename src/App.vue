@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 13px;
+  background-color: #000;
 }
 
 #app {
